@@ -1,5 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Oswald:wght@500&family=Roboto:wght@400;900&family=Stick+No+Bills:wght@500&display=swap');
+
+
+/* Color Theme Swatches in Hex */
+ /* color: #D99962
+    color: #8C512E
+    color: #D9D9D9
+    color: #737373
+    color: #0D0D0D */
+
+
+
 * {
     padding: 0;
     margin: 0;
 }
+
+body {
+    font-size: 18px;
+    background-color: #ffffff
+}
+
+.logo {
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 3rem;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #0D0D0D;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: #737373;
+}
+
+/*banner section */
+
+.banner {
+    background-image: url("https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.welcome{
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255,0.5);
+    width: 700px;
+    height: auto;
+    font-size: 3rem;
+    padding: 30px 20px;
+    position: relative;
+    top: 150px;
+    left: 135px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.gp {
+    color: #8C512E;
+    font-weight: 900;
+}
+
+.wel {
+    color: #0D0D0D;
+    font-weight: 900;
+}
+
+/*project section */
+.project {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.75rem;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.container-photo {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.line {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.port img {
+    width: 100%;
+}
+
+
 
