@@ -258,6 +258,7 @@ and (max-device-width: 480px) {
     .logo {
         font-family: 'Stick No Bills', sans-serif;
         font-size: 2rem;
+        width: 100%;
     }
     
     .logo a {
