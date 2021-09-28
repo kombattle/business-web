@@ -163,7 +163,6 @@ p {
 
 }
 
-
 .ppl-1 {
     display: flex;
     align-items: center;
@@ -254,7 +253,8 @@ footer p a {
 
 /*phone section*/
 
-@media screen and (max-width: 480px) {
+@media screen and (min-device-width: 320px) 
+and (max-device-width: 480px) {
     .logo {
         font-family: 'Stick No Bills', sans-serif;
         font-size: 2rem;
@@ -275,7 +275,7 @@ footer p a {
     nav ul {
         display: flex;
         justify-content: space-between;
-        width: 250px;
+        width: 100%;
         padding-right: 10px;
     }
     
@@ -290,6 +290,10 @@ footer p a {
         font-size: 0.75rem;
         color: #0D0D0D;
     } 
+
+    li a:hover {
+        text-decoration: none;
+    }
 
     /* banner section phone*/
     .banner {
@@ -361,65 +365,59 @@ footer p a {
     /*about section*/
 
     .about-us {
-        border-top: 3px solid #D9D9D9;
-        border-bottom: 3px solid #D9D9D9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-    
+
     .container-about {
         display: flex;
+        width: 100%;
         flex-direction: column;
-        width: 50%;
+        
     }
-    
-    
-    .ppl-1 {
+
+    .img-about img {
+        width: 80%;
+        margin: 0;
+    }
+
+    .img-about {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        width: 250px;
+        
+    }
+
+    .ppl-1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     
     .ppl-2 {
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 250px;
     }
-    
-    .img-about img {
-        width: 250px;
-        height: auto;
-        border-radius: 10%;
-    }
-    
+
     .info-1 {
-        font-family: 'Roboto', sans-serif;
-        font-size: 1rem;
-        text-align: left;
-        width: 100%;
-        height: 100px;
-        padding: 20px 0px;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        
+        justify-content: center;
+        align-items: center;
+        padding: 15px 15px;
+        width: 80%;
     }
-    
+
     .info-2 {
-        font-family: 'Roboto', sans-serif;
-        font-size: 1rem;
-        text-align: left;
-        width: 100%;
-        height: 100px;
         display: flex;
-        padding: 10px 0px;
         flex-direction: column;
-        justify-content: space-evenly;
-        
-    }
-    
-    .highlight {
-        color: rgba(0, 0, 0,0.7);
+        justify-content: center;
+        align-items: center;
+        padding: 15px 15px;
+        width: 80%; 
     }
 
     /* contact section phone*/
