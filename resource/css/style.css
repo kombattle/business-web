@@ -64,9 +64,15 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 1.75rem;
-    margin: 50px auto;
+    margin: 30px auto;
     text-align: center;
     color: #0D0D0D;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.75rem;
 }
 
 h4 {
@@ -146,16 +152,17 @@ p {
 .about-us {
     display: flex;
     justify-content: center;
+    border-top: 3px solid #D9D9D9;
+    border-bottom: 3px solid #D9D9D9;
 }
 
 .container-about {
     display: flex;
     flex-direction: column;
-    border: 3px solid #737373;
     width: 50%;
-    
-    
+
 }
+
 
 .ppl-1 {
     display: flex;
@@ -171,8 +178,8 @@ p {
 .img-about img {
     width: 250px;
     height: auto;
-    padding: 10px 20px;
-
+    margin: 10px 20px;
+    border-radius: 10px;
 }
 
 .info-1 {
@@ -203,4 +210,45 @@ p {
     color: rgba(0, 0, 0,0.7);
 }
 
+
+/*contact us section*/
+
+.contact {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.contact-info {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+
+.contact-img {
+    width: 40%;
+}
+
+.contact-img img {
+  width: 80%;
+}
+
+/*footer section */
+
+footer {
+    background-color: #737373;
+    color: #D9D9D9;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+footer p a {
+    color: #D9D9D9;
+}
 
