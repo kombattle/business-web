@@ -421,5 +421,34 @@ footer p a {
     .highlight {
         color: rgba(0, 0, 0,0.7);
     }
+
+    /* contact section phone*/
+    .contact {
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .contact-info {
+        width: 80%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0px 20px;
+        text-align: center; 
+    }
+    
+    .contact-img {
+        width: 80%;
+    }
+    
+    .contact-img img {
+      width: 100%;
+    }
+    
 }
 
